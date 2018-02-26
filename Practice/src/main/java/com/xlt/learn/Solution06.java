@@ -1,16 +1,11 @@
 package com.xlt.learn;
 
-import java.util.Stack;
-
-import static javafx.scene.input.KeyCode.T;
-import static jdk.nashorn.internal.objects.Global.print;
-
 /**
  * Created by xlt on 20180211.
  * 快排
 
  */
-public class Solution6 {
+public class Solution06 {
     public void sort(int arr[],int low,int high)
     {
         int l = low;
@@ -51,7 +46,7 @@ public class Solution6 {
 
     public static void main(String[] args) {
         int[] array = {8,9,4,6,3,2,5,1,10,7};
-        Solution6 solution = new Solution6();
+        Solution06 solution = new Solution06();
         solution.sort(array,0,array.length-1);
     }
 

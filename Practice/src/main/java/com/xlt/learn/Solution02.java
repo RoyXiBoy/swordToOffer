@@ -5,7 +5,7 @@ package com.xlt.learn;
  * 1.不用String里的函数
  * 
  */
-public class Solution2 {
+public class Solution02 {
     
     public static String replaceBlank(String str) {
         

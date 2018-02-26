@@ -7,7 +7,7 @@ import java.util.Stack;
  * 题目描述
  用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
  */
-public class Solution5 {
+public class Solution05 {
 
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();
@@ -32,7 +32,7 @@ public class Solution5 {
     }
 
     public static void main(String[] args) {
-        Solution5 solution = new Solution5();
+        Solution05 solution = new Solution05();
         solution.push(1);
         solution.push(2);
         solution.push(3);

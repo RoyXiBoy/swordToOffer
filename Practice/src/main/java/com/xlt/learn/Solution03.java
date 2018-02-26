@@ -5,7 +5,7 @@ package com.xlt.learn; /**
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class Solution3{
+public class Solution03 {
 
     public static class ListNode {
         int val;

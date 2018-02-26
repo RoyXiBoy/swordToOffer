@@ -3,7 +3,7 @@ package com.xlt.learn;
 /**
  * Created by xlt on 20180211.
  */
-public class Solution1 {
+public class Solution01 {
     public static boolean Find(int target, int [][] array) {
 
         int row = 0;
